@@ -43,7 +43,7 @@ public:
     int peek() {
         if (isEmpty()) {
             cout << "Stack is empty!\n";
-            return -1;      // return something to show nothing is there
+            return -1;      
         }
         return top->data;
     }
@@ -59,7 +59,6 @@ int main() {
     int opt, val;
 
     do {
-        cout << "\n--- Stack Menu ---\n";
         cout << "1. Push\n";
         cout << "2. Pop\n";
         cout << "3. Peek (Top element)\n";
@@ -102,3 +101,4 @@ int main() {
 
     return 0;
 }
+
